@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2C3E50;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.hero {
+    background-image: url('https://www.nature.org/content/dam/tnc/nature/en/photos/2022-ohio-highlights/CumberlandForestAppsCameronDavidson.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: #27AE60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.section {background-image: url(https://thumbs.dreamstime.com/b/world-environment-day-green-concept-earth-hands-growing-big-tree-soil-eco-bio-globe-clean-natural-background-94911120.jpg);
+    padding: 4rem 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 50px;
+    height: 100vh;
+    text-align:left;
+    font-size:x-large;
+    color: black;
+}
+
+.section.dark-section { background-image: url(https://imgs.search.brave.com/FN6KoATHVDqEBt_Sn2UIs4tiG1gJ2adciBlwqSl0pf4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzA2Lzg0Lzc1/LzM2MF9GXzEwNjg0/NzU4Ml83SmNSeUhW/eTB4c3A5cUlEdnVj/Y21kbDVvejNqb3Ji/bS5qcGc);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-position:top;
+    font-size: larger;
+    color: black;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+li a:hover{
+    background-color:rgb(120, 177, 5)
+}
+a{
+    padding: 2px;
+    text-align: center;
+    margin: 60px;
+}
+
